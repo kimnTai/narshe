@@ -1,0 +1,23 @@
+{
+  "name": "narshe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "start": "node ./dist/app.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1",
+    "vite-plugin-node": "^3.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.0.3"
+  },
+  "engines": {
+    "node": "^v16.x"
+  }
+}
